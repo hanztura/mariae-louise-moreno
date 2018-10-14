@@ -18,7 +18,7 @@ Activites:
     3. Polynomial Addition
         - status: **PENDING**
 
-        -remarks: 
+        - remarks: 
             Please take 1 set of test case from the input and write it in standard polynomial form. Instructions are not quite clear to me.
 
     4. Finite Continued Fractions
