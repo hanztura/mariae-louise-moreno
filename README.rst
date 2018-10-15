@@ -46,10 +46,13 @@ Instructions 1 (CMD):
     - run your activity script:
         + Longest Word:
             ``python3 longest_word.py`` or
+
             ``python longest_word.py``
 
         + Canonical Prime Factorization:
-            ``canonical_prime_factorization()``
+            ``python3 canonical_prime_factorization.py.py`` or
+
+            ``python canonical_prime_factorization.py.py``
 
         + Polynomial Addition:
             ``polinomial_addition()``
