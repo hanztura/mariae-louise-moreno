@@ -1,13 +1,12 @@
-from sys import stdin, stdout
 
 # get test cases
 multiplier = 1
-number_of_test_cases = int(stdin.readline()) * multiplier
+number_of_test_cases = int(input()) * multiplier
 
 # get test cases
 input_test_cases = []
 for i in range(number_of_test_cases):
-    test_case = stdin.readline()
+    test_case = input()
     input_test_cases.append(test_case)
 
 # output
@@ -25,6 +24,6 @@ for test_case in input_test_cases:
             if len(word) > len(longest_word):
                 longest_word = word
 
-    answer = '{}\n'.format(longest_word)
-    stdout.write(answer)
+    answer = longest_word
+    print(answer)
     output.append(longest_word)
