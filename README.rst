@@ -2,14 +2,17 @@ CS 11 Exercise 05
 ==================
 
 Reference:
+----------
 
     - exercise05.pdf
 
 System Requierments:
+--------------------
 
     - python3.5.2
 
 Activites:
+----------
 
     1. Longest Word
         - status: **Done**
@@ -18,10 +21,7 @@ Activites:
         - status: **Done**
 
     3. Polynomial Addition
-        - status: **PENDING**
-
-        - remarks: 
-            Please take 1 set of test case from the input and write it in standard polynomial form. Instructions are not quite clear to me.
+        - status: **DONE**
 
     4. Finite Continued Fractions
         - status: **Done**
@@ -30,6 +30,7 @@ Activites:
         - status: **Done**
 
 Instructions 1 (CMD):
+----------------------
 
     - download or clone this repo
 
