@@ -122,16 +122,26 @@ Instructions 1 (CMD):
 
     - run your activity script:
         + Substitution Cipher:
-            ``substitution_cipher()``
+            ``python3 substitution_cipher.py`` or
+
+            ``python substitution_cipher.py``
 
         + Inventory Sequences:
-            ``inventory_sequences2()``
+            ``python3 inventory_sequences2.py`` or
+
+            ``python inventory_sequences2.py``
 
         + Roman Numeral:
-            ``roman_numeral()``
+            ``python3 roman_numeral.py`` or
+
+            ``python roman_numeral.py``
 
         + Uniquely Yours:
-            ``uniquely_yours()``
+            ``python3 uniquely_yours.py`` or
+
+            ``python uniquely_yours.py``
 
         + Word Amalgamation:
-            ``word_amalgamation()``
+            ``python3 word_amalgamation.py`` or
+
+            ``python word_amalgamation.py``

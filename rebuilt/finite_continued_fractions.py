@@ -24,6 +24,7 @@ for test_case in input_test_cases:
 
             answer = (1 / (value + compute_continued_fraction(values[1:])))
             return answer
+
         answer = base + compute_continued_fraction(test_case[1:])
 
         answer = round(answer, 6)
