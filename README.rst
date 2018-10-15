@@ -50,15 +50,19 @@ Instructions 1 (CMD):
             ``python longest_word.py``
 
         + Canonical Prime Factorization:
-            ``python3 canonical_prime_factorization.py.py`` or
+            ``python3 canonical_prime_factorization.py`` or
 
-            ``python canonical_prime_factorization.py.py``
+            ``python canonical_prime_factorization.py``
 
         + Polynomial Addition:
-            ``polinomial_addition()``
+            ``python3 polinomial_addition.py`` or
+
+            ``python polinomial_addition.py``
 
         + Finite Continued Fractions:
-            ``finite_continued_fractions()``
+            ``python3 finite_continued_fractions.py`` or
+
+            ``python finite_continued_fractions.py``
 
         + Histogram:
             ``histogram()``
