@@ -1,14 +1,3 @@
-# For this exercise, you have to write five different computer programs. A
-# submission link is available in UVLe for each program.
-# • Make sure that your algorithm works given the sample input and output.
-# You must also check if your algorithm can also handle input other than
-# the ones given.
-# • Please remove any prompt messages (e.g. Enter number: ) when getting
-# input. Prompt messages will mess with your output, making your
-# solution invalid.
-# • See the sample input and output to guide you on what and how your
-# program must display output.
-# • Submit your solutions on or before Sunday, September 23 at 11:59pm.
 from helpers import *
 
 

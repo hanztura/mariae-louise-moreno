@@ -49,7 +49,7 @@ Instructions 1 (CMD):
         ``from exercise05 import *``
 
     - run your activity script:
-        + Longest Word run:
+        + Longest Word:
             ``longest_word()``
 
         + Canonical Prime Factorization:
@@ -63,3 +63,70 @@ Instructions 1 (CMD):
 
         + Histogram:
             ``histogram()``
+
+CS 11 Exercise 06
+==================
+
+Reference:
+----------
+
+    - cs11_mock_exam.pdf
+
+System Requierments:
+--------------------
+
+    - python3.5.2
+
+Activites:
+----------
+
+    1. Substitution Cipher
+        - status: **DONE**
+
+    2. Inventory Sequences
+        - status: **DONE**
+
+    3. Roman Numeral
+        - status: **DONE**
+
+    4. Uniquely Yours
+        - status: **DONE**
+
+    5. Word Amalgamation
+        - status: **DONE**
+
+
+Instructions 1 (CMD):
+----------------------
+
+    - download or clone this repo
+
+    - if download file is zipped/archived, extract it
+
+    - open a cmd, in windows press windows+r then type ``cmd``
+
+    - change the directory into where you save your downloaded repo through this command:
+        ``cd C:\Users\directory\to\your\downloaded\repo\maria-louise-moreno``
+
+    - run ``python`` or ``python3`` depending on your setup
+
+    - make sure that the version of the python running is version 3
+
+    - run:
+        ``from cs11_mock_exam import *``
+
+    - run your activity script:
+        + Substitution Cipher:
+            ``substitution_cipher()``
+
+        + Inventory Sequences:
+            ``inventory_sequences2()``
+
+        + Roman Numeral:
+            ``roman_numeral()``
+
+        + Uniquely Yours:
+            ``uniquely_yours()``
+
+        + Word Amalgamation:
+            ``word_amalgamation()``
