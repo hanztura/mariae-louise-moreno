@@ -1,0 +1,30 @@
+from sys import stdin, stdout
+
+# get test cases
+multiplier = 1
+number_of_test_cases = int(stdin.readline()) * multiplier
+
+# get test cases
+input_test_cases = []
+for i in range(number_of_test_cases):
+    test_case = stdin.readline()
+    input_test_cases.append(test_case)
+
+# output
+output = []
+# get longest word of each test case
+for test_case in input_test_cases:
+
+    # get longest word
+    longest_word = ''
+    if test_case:
+        # transform test_case into an array of words
+        words = test_case.split()
+
+        for word in words:
+            if len(word) > len(longest_word):
+                longest_word = word
+
+    answer = '{}\n'.format(longest_word)
+    stdout.write(answer)
+    output.append(longest_word)

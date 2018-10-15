@@ -39,18 +39,14 @@ Instructions 1 (CMD):
     - open a cmd, in windows press windows+r then type ``cmd``
 
     - change the directory into where you save your downloaded repo through this command:
-        ``cd C:\Users\directory\to\your\downloaded\repo\maria-louise-moreno``
+        ``cd C:\Users\directory\to\your\downloaded\repo\maria-louise-moreno\rebuilt``
 
-    - run ``python`` or ``python3`` depending on your setup
-
-    - make sure that the version of the python running is version 3
-
-    - run:
-        ``from exercise05 import *``
+    - make sure that the version of the python running is version 3, you may use ``python`` or ``python3`` as long as it points to version 3
 
     - run your activity script:
         + Longest Word:
-            ``longest_word()``
+            ``python3 longest_word.py`` or
+            ``python longest_word.py``
 
         + Canonical Prime Factorization:
             ``canonical_prime_factorization()``
