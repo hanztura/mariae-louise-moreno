@@ -65,7 +65,9 @@ Instructions 1 (CMD):
             ``python finite_continued_fractions.py``
 
         + Histogram:
-            ``histogram()``
+            ``python3 histogram.py`` or
+
+            ``python histogram.py``
 
 CS 11 Exercise 06
 ==================
