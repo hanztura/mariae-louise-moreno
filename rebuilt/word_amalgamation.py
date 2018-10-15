@@ -86,6 +86,7 @@ for word in list_of_scrambled_words:
     end_of_result_string = "******"
     for word_tuple in scrambled_words:
         unscrambled_words = word_tuple[1]
+        unscrambled_words = sorted(unscrambled_words)
         if len(unscrambled_words) < 1:
             print('NOT A VALID WORD')
         else:
