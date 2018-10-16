@@ -4,6 +4,7 @@ scrambled_words = []  # (word: str, unscrambled: array)
 
 # get user inputs
 is_lower = True
+is_validate = False
 min_length = 0
 max_length = 0
 while True:
@@ -15,13 +16,14 @@ while True:
         user_input = user_input.lower()
 
     # validate
-    if min_length > 0:
-        if len(user_input) < min_length or len(user_input) < 1:
-            continue
+    if is_validate:
+        if min_length > 0:
+            if len(user_input) < min_length or len(user_input) < 1:
+                continue
 
-    if max_length > 0:
-        if len(user_input) > max_length:
-            continue
+        if max_length > 0:
+            if len(user_input) > max_length:
+                continue
     # end validate
 
     dictionary.append(user_input)
@@ -39,13 +41,14 @@ while True:
         user_input = user_input.lower()
 
     # validate
-    if min_length > 0:
-        if len(user_input) < min_length or len(user_input) < 1:
-            continue
+    if is_validate:
+        if min_length > 0:
+            if len(user_input) < min_length or len(user_input) < 1:
+                continue
 
-    if max_length > 0:
-        if len(user_input) > max_length:
-            continue
+        if max_length > 0:
+            if len(user_input) > max_length:
+                continue
     # end validate
 
     list_of_scrambled_words.append(user_input)
