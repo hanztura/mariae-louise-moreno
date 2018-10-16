@@ -3,8 +3,6 @@ dictionary = []
 scrambled_words = []  # (word: str, unscrambled: array)
 
 # get user inputs
-# dictionary = get_infinite_inputs(delimiter)
-dictionary = []
 is_lower = True
 min_length = 0
 max_length = 0
@@ -28,8 +26,7 @@ while True:
 
     dictionary.append(user_input)
 
-
-# list_of_scrambled_words = get_infinite_inputs(delimiter, min_length=1, max_length=6)
+# get list of scrambled words
 list_of_scrambled_words = []
 min_length = 1
 max_length = 6
@@ -53,27 +50,22 @@ while True:
 
     list_of_scrambled_words.append(user_input)
 
-
+# output
 for word in list_of_scrambled_words:
-    # search_result = sorted(search_words(word, dictionary))
-    word_filter = word
+    word_filter = sorted(word)  # array of letters
+    word_filter_length = len(word_filter)
     data = dictionary
-    _dictionary = [word for word in data if len(word) >= len(word_filter)]
+    _dictionary = [word for word in data if len(word) >= word_filter_length]
     scrambled_words = []  # (word: str, unscrambled: array)
 
-    # reduce dictionary by letter appearance
-    dictionary2 = []
-    word_filter_length = len(word_filter)
-    for word in _dictionary:
-        save_word = True
-        for letter in word_filter:
-            if letter not in word:
-                save_word = False
-                break
-        if save_word and len(word) == word_filter_length:
-            dictionary2.append(word)
-
-    search_result = dictionary2
+    search_result = []
+    word_filter = "".join(word_filter)  # array of letters into a single word
+    for dictionary_word in _dictionary:
+        sorted_dictionary_word = sorted(dictionary_word)  # sorted array of letters
+        sorted_dictionary_word = "".join(sorted_dictionary_word)  #  into a single word
+        # print(word_filter == sorted_dictionary_word)
+        if word_filter == sorted_dictionary_word:
+            search_result.append(dictionary_word)
 
     scrambled_word = (
         word,
